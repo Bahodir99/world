@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    font-family: 'Nunito Sans';
+    transition: all ease 0.8s;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* header start */
+.header1{
+    border-radius: 5px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.0562443);
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 0;
+}
+
+
+.theme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.theme button {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+
+.icon {
+    cursor: pointer;
+}
+
+/* header finish */
+
+/* search start */
+
+.search {
+    margin-top: 48px;
+}
+
+
+.search__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.search__inp {
+    width: 480px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 32px;
+    margin-right: 24px;
+    box-shadow: 5px 12px 9px rgba(0, 0, 0, 0.0532439);
+    border-radius: 5px;
+}
+
+.input__light {
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-left: 24px;
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.select{
+    width: 200px;
+    height: 59px;
+    text-align: center;
+    border: none;
+    outline: none;
+    box-shadow: 5px 12px 9px rgba(0, 0, 0, 0.0532439);
+    border-radius: 5px;
+}
+
+/* search finish */
+
+/* cards start  */
+
+.cards{
+    margin-top: 48px;
+}
+
+.countryes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1100px;
+}
+
+.country{
+    margin-bottom: 72px;
+    margin-right: 15px;
+    max-width: 200px;
+    max-height: 336px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 4px 6px 10px 12px rgba(0, 0, 0, 0.0294384);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.8s;
+}
+
+.country:hover{
+    transform: scale(110%);
+}
+
+.country img{
+    object-fit: cover;
+    max-width: 200px;
+    max-height: 184px;
+}
+
+.info{
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 46px;
+}
+
+.info h3{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.info p{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+}
+
+/* cards finish */
+
+
+/* dark mode  */
+
+.body__dark{
+    background-color:  #202C36;
+    color: white;
+}
+
+.header__dark{
+    background-color: #2B3844;
+}
+
+.search__dark{
+    background-color: #2B3844;
+}
+
+.input__dark{
+    background-color: #2B3844;
+}
+
+.select__dark{
+    background-color: #2B3844;
+}
+.country__dark{
+    background-color: #2B3844;
+}
+
+.theme__dark button{
+    color: white;
+}
